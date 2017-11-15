@@ -1,2 +1,2 @@
 # GeofenceSample
-This repository is geofence sample
+This Repository is Geofence Sample
