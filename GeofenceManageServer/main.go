@@ -5,20 +5,21 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/hlts2/GeofenceSample/GeofenceManageServer/application/handler"
+	"github.com/hlts2/GeofenceSample/GeofenceManageServer/application/handler/location"
+	"github.com/hlts2/GeofenceSample/GeofenceManageServer/application/handler/top"
 )
 
 func main() {
 	r := gin.Default()
 
 	r.LoadHTMLGlob("ui/template/*.html")
-	r.GET("/", handler.Index)
+	r.GET("/", top.TopHandler)
 
 	v1 := r.Group("/api/v1")
 	{
-		v1.GET("/locations", handler.GetLocations)
-		v1.GET("/locations/:id", handler.GetLocation)
-		v1.POST("/locations", handler.PostLocation)
+		v1.GET("/locations", location.GetLocationsHandler)
+		v1.GET("/locations/:id", location.GetLocationHandler)
+		v1.POST("/locations", location.PostLocationHandler)
 	}
 
 	var port string

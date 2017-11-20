@@ -1,4 +1,4 @@
-package handler
+package top
 
 import (
 	"net/http"
@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// Index Add Index Handler
-func Index(ctx *gin.Context) {
+// TopHandler Add Top Handler
+func TopHandler(ctx *gin.Context) {
 	ctx.HTML(http.StatusOK, "index.html", gin.H{})
 }
