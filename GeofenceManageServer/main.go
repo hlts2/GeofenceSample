@@ -5,15 +5,15 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
+	"github.com/hlts2/GeofenceSample/GeofenceManageServer/application/handler"
 	"github.com/hlts2/GeofenceSample/GeofenceManageServer/application/handler/location"
-	"github.com/hlts2/GeofenceSample/GeofenceManageServer/application/handler/top"
 )
 
 func main() {
 	r := gin.Default()
 
 	r.LoadHTMLGlob("ui/template/*.html")
-	r.GET("/", top.TopHandler)
+	r.GET("/", handler.RootHandler)
 
 	v1 := r.Group("/api/v1")
 	{
