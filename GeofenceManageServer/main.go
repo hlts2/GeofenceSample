@@ -5,13 +5,13 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/hlts2/GeofenceSample/GeofenceManageServer/handler"
+	"github.com/hlts2/GeofenceSample/GeofenceManageServer/application/handler"
 )
 
 func main() {
 	r := gin.Default()
 
-	r.LoadHTMLGlob("template/*.html")
+	r.LoadHTMLGlob("ui/template/*.html")
 	r.GET("/", handler.Index)
 
 	v1 := r.Group("/api/v1")
