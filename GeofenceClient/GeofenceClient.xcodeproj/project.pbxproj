@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86005F9D1FCAF98D005FCD2C /* LocationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86005F9C1FCAF98D005FCD2C /* LocationRepository.swift */; };
+		86005F9F1FCAFA8A005FCD2C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86005F9E1FCAFA8A005FCD2C /* User.swift */; };
+		86005FA11FCAFA94005FCD2C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86005FA01FCAFA94005FCD2C /* Location.swift */; };
+		86005FA41FCAFBA3005FCD2C /* APIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86005FA31FCAFBA3005FCD2C /* APIType.swift */; };
+		86005FA61FCAFBB2005FCD2C /* HTTPResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86005FA51FCAFBB2005FCD2C /* HTTPResult.swift */; };
+		86005FA81FCAFBC8005FCD2C /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86005FA71FCAFBC8005FCD2C /* HTTPRequest.swift */; };
+		86005FAA1FCAFBD4005FCD2C /* HTTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86005FA91FCAFBD4005FCD2C /* HTTPConnection.swift */; };
+		86005FAC1FCAFBE4005FCD2C /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86005FAB1FCAFBE4005FCD2C /* HTTPMethod.swift */; };
+		8610A7C71FCACBE40001C9CB /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610A7C61FCACBE40001C9CB /* TopViewController.swift */; };
+		8610A7CB1FCACC2D0001C9CB /* TopVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8610A7CA1FCACC2D0001C9CB /* TopVCPresenter.swift */; };
+		864B0D641FCAF3C100DB5F9F /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B0D631FCAF3C100DB5F9F /* LoginUseCase.swift */; };
+		864B0D661FCAF40000DB5F9F /* LocationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B0D651FCAF40000DB5F9F /* LocationUseCase.swift */; };
+		864B0D6D1FCAF6CB00DB5F9F /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B0D6C1FCAF6CB00DB5F9F /* LoginRepository.swift */; };
+		86E18AA81FCAC92000EABF29 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E18AA71FCAC92000EABF29 /* LoginViewController.swift */; };
+		86E18AAF1FCACA2E00EABF29 /* LoginVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E18AAE1FCACA2E00EABF29 /* LoginVCPresenter.swift */; };
 		86E2D8D11FBFDDA100966192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E2D8D01FBFDDA100966192 /* AppDelegate.swift */; };
-		86E2D8D31FBFDDA100966192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E2D8D21FBFDDA100966192 /* ViewController.swift */; };
 		86E2D8D61FBFDDA100966192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E2D8D41FBFDDA100966192 /* Main.storyboard */; };
 		86E2D8D81FBFDDA100966192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E2D8D71FBFDDA100966192 /* Assets.xcassets */; };
 		86E2D8DB1FBFDDA100966192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E2D8D91FBFDDA100966192 /* LaunchScreen.storyboard */; };
@@ -34,9 +48,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86005F9C1FCAF98D005FCD2C /* LocationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRepository.swift; sourceTree = "<group>"; };
+		86005F9E1FCAFA8A005FCD2C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		86005FA01FCAFA94005FCD2C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		86005FA31FCAFBA3005FCD2C /* APIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIType.swift; sourceTree = "<group>"; };
+		86005FA51FCAFBB2005FCD2C /* HTTPResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResult.swift; sourceTree = "<group>"; };
+		86005FA71FCAFBC8005FCD2C /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		86005FA91FCAFBD4005FCD2C /* HTTPConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPConnection.swift; sourceTree = "<group>"; };
+		86005FAB1FCAFBE4005FCD2C /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		8610A7C61FCACBE40001C9CB /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		8610A7CA1FCACC2D0001C9CB /* TopVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopVCPresenter.swift; sourceTree = "<group>"; };
+		864B0D631FCAF3C100DB5F9F /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		864B0D651FCAF40000DB5F9F /* LocationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUseCase.swift; sourceTree = "<group>"; };
+		864B0D6C1FCAF6CB00DB5F9F /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		86E18AA71FCAC92000EABF29 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		86E18AAE1FCACA2E00EABF29 /* LoginVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCPresenter.swift; sourceTree = "<group>"; };
 		86E2D8CD1FBFDDA100966192 /* GeofenceClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeofenceClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E2D8D01FBFDDA100966192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86E2D8D21FBFDDA100966192 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86E2D8D51FBFDDA100966192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86E2D8D71FBFDDA100966192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86E2D8DA1FBFDDA100966192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +102,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86005FA21FCAFB6A005FCD2C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				86005FA31FCAFBA3005FCD2C /* APIType.swift */,
+				86005FA51FCAFBB2005FCD2C /* HTTPResult.swift */,
+				86005FA71FCAFBC8005FCD2C /* HTTPRequest.swift */,
+				86005FA91FCAFBD4005FCD2C /* HTTPConnection.swift */,
+				86005FAB1FCAFBE4005FCD2C /* HTTPMethod.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		864B0D5D1FCAF27800DB5F9F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				86E2D8D41FBFDDA100966192 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		864B0D5E1FCAF2C800DB5F9F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				864B0D691FCAF53600DB5F9F /* Model */,
+				864B0D601FCAF33900DB5F9F /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		864B0D5F1FCAF2E000DB5F9F /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				864B0D681FCAF4EF00DB5F9F /* API */,
+				864B0D611FCAF35200DB5F9F /* Repository */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		864B0D601FCAF33900DB5F9F /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				864B0D631FCAF3C100DB5F9F /* LoginUseCase.swift */,
+				864B0D651FCAF40000DB5F9F /* LocationUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		864B0D611FCAF35200DB5F9F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				864B0D6C1FCAF6CB00DB5F9F /* LoginRepository.swift */,
+				86005F9C1FCAF98D005FCD2C /* LocationRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		864B0D681FCAF4EF00DB5F9F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				86005FA21FCAFB6A005FCD2C /* Network */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		864B0D691FCAF53600DB5F9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86005F9E1FCAFA8A005FCD2C /* User.swift */,
+				86005FA01FCAFA94005FCD2C /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86E18AA91FCAC96E00EABF29 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				864B0D5D1FCAF27800DB5F9F /* Storyboard */,
+				86E18AAB1FCAC9B200EABF29 /* Presenter */,
+				86E18AAA1FCAC97C00EABF29 /* UI */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		86E18AAA1FCAC97C00EABF29 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				86E18AA71FCAC92000EABF29 /* LoginViewController.swift */,
+				8610A7C61FCACBE40001C9CB /* TopViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		86E18AAB1FCAC9B200EABF29 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				86E18AAE1FCACA2E00EABF29 /* LoginVCPresenter.swift */,
+				8610A7CA1FCACC2D0001C9CB /* TopVCPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		86E2D8C41FBFDDA100966192 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +226,10 @@
 		86E2D8CF1FBFDDA100966192 /* GeofenceClient */ = {
 			isa = PBXGroup;
 			children = (
+				864B0D5F1FCAF2E000DB5F9F /* Infrastructure */,
+				864B0D5E1FCAF2C800DB5F9F /* Domain */,
+				86E18AA91FCAC96E00EABF29 /* Presentation */,
 				86E2D8D01FBFDDA100966192 /* AppDelegate.swift */,
-				86E2D8D21FBFDDA100966192 /* ViewController.swift */,
-				86E2D8D41FBFDDA100966192 /* Main.storyboard */,
 				86E2D8D71FBFDDA100966192 /* Assets.xcassets */,
 				86E2D8D91FBFDDA100966192 /* LaunchScreen.storyboard */,
 				86E2D8DC1FBFDDA100966192 /* Info.plist */,
@@ -259,8 +389,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2D8D31FBFDDA100966192 /* ViewController.swift in Sources */,
+				86005FA61FCAFBB2005FCD2C /* HTTPResult.swift in Sources */,
+				86E18AA81FCAC92000EABF29 /* LoginViewController.swift in Sources */,
+				86005FA11FCAFA94005FCD2C /* Location.swift in Sources */,
+				864B0D6D1FCAF6CB00DB5F9F /* LoginRepository.swift in Sources */,
+				86005FAA1FCAFBD4005FCD2C /* HTTPConnection.swift in Sources */,
 				86E2D8D11FBFDDA100966192 /* AppDelegate.swift in Sources */,
+				86005FA41FCAFBA3005FCD2C /* APIType.swift in Sources */,
+				86005F9D1FCAF98D005FCD2C /* LocationRepository.swift in Sources */,
+				8610A7CB1FCACC2D0001C9CB /* TopVCPresenter.swift in Sources */,
+				86E18AAF1FCACA2E00EABF29 /* LoginVCPresenter.swift in Sources */,
+				864B0D661FCAF40000DB5F9F /* LocationUseCase.swift in Sources */,
+				8610A7C71FCACBE40001C9CB /* TopViewController.swift in Sources */,
+				86005FAC1FCAFBE4005FCD2C /* HTTPMethod.swift in Sources */,
+				86005FA81FCAFBC8005FCD2C /* HTTPRequest.swift in Sources */,
+				86005F9F1FCAFA8A005FCD2C /* User.swift in Sources */,
+				864B0D641FCAF3C100DB5F9F /* LoginUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
